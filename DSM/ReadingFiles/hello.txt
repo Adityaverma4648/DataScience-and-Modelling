@@ -1,0 +1,15 @@
+lorem lorem
+
+df.groupby('ColName')['ColName2].sum()
+
+ColName = categorical Column
+and ColName2 = numeric data
+
+
+df.groupby('ColName')['ColName2].aggregate(sum)
+
+
+checking alignment of the freq for a numeric columns are done using describe()
+
+
+one numeric and one categoric col data then box plot
